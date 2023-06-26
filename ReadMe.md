@@ -9,7 +9,7 @@ Yes. As scraping HTML pages uses thousands of tokens, it is not possible to use 
 Download [Chrome](https://www.google.com/chrome/). I strongly recommend that you update to the latest version of Chrome.
 
 **No Chrome?**
-We need something Chromium based for *undetected_chromedriver* to remain undetected. You can download [Microsoft Edge](https://www.microsoft.com/en-us/edge) or [Chromium](https://chromium.com/) and change Line 22 in *gpt_parser.py* to the path of the browser you downloaded.
+We need something Chromium based for *undetected_chromedriver* to remain undetected. You can download [Microsoft Edge](https://www.microsoft.com/en-us/edge) or [Chromium](https://chromium.com/) and change Line 28 in *server.py* to the path of the browser you downloaded.
 
 ### Step 2
 Install the required packages [Selenium](https://github.com/SeleniumHQ/selenium) and [undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
